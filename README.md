@@ -1,6 +1,12 @@
 # Virtual_Ruler
  ECOGREEN Virtual Ruler Repository  
- 캡스톤디자인 프로젝트 에코그린 팀, 대형폐기물 배출 안내 어플리케이션의 Virtual Ruler 파트 레포지토리이다.<br/><br/>
+ 캡스톤디자인 프로젝트 에코그린 팀, 대형폐기물 배출 안내 어플리케이션의 **Virtual Ruler** 파트 레포지토리이다.
+ 
+ 
+ 파일은 다운받아서 유니티 내에서 Open Project를 통해 열 수 있을 것이다. 혹시 모르니 다음 업데이트부터는  Unity Package 형태도 같이 업로드 할 예정이다.
+ 
+ 최신버전의 apk 파일은 **에코그린 Organization**의 AR_virtual ruler 폴더에서 찾을 수 있다. 에코그린 Organization 링크는 아래에 있으니 참고바란다.<br/><br/>
+ 
 
 
 # 에코그린 유튜브 채널
