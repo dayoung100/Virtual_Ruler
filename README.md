@@ -5,7 +5,13 @@
  
  파일은 다운받아서 유니티 내에서 Open Project를 통해 열 수 있을 것이다. 혹시 모르니 다음 업데이트부터는  Unity Package 형태도 같이 업로드 할 예정이다.
  
- 최신버전의 apk 파일은 **에코그린 Organization**의 AR_virtual ruler 폴더에서 찾을 수 있다. 에코그린 Organization 링크는 아래에 있으니 참고바란다.<br/><br/>
+ 최신버전의 apk 파일은 **에코그린 Organization**의 AR_virtual ruler 폴더에서 찾을 수 있다. 에코그린 Organization 링크는 아래에 있으니 참고바란다.
+ 
+ 유니티: 2019.2.8f1 사용  
+ ARCore sdk: 1.20.0 이상의 버전
+ 
+ 코드에 대한 설명 및 빌드 세팅 등은 아래의 블로그에서 확인할 수 있다.  
+ https://iszero-tech.tistory.com/category/AR<br/><br/>
  
 
 
