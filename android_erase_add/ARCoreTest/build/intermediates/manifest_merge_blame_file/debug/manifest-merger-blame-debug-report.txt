@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Test.ARCore"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:20:3-52
+19-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:20:17-49
+20
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:21:3-63
+21-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:21:20-60
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:22:3-65
+22-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:22:20-62
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+23-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:23:3-84
+23-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:23:20-81
+24
+25    <uses-feature
+25-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:24:3-88
+26        android:name="android.hardware.touchscreen"
+26-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:24:17-60
+27        android:required="false" />
+27-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:24:61-85
+28    <uses-feature
+28-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:25:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:25:17-71
+30        android:required="false" />
+30-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:25:72-96
+31    <uses-feature
+31-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:26:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:26:17-80
+33        android:required="false" />
+33-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:26:81-105
+34
+35    <queries>
+35-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:29:5-31:15
+36        <package android:name="com.google.ar.core" />
+36-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:30:9-54
+36-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:30:18-51
+37    </queries>
+38
+39    <uses-feature
+39-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:9:5-11:35
+40        android:name="android.hardware.camera.ar"
+40-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:10:9-50
+41        android:required="true" />
+41-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:11:9-32
+42
+43    <application
+43-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:4:3-19:17
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/app_icon"
+46-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:4:58-89
+47        android:label="@string/app_name"
+47-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:4:90-122
+48        android:theme="@style/UnityThemeSelector" >
+48-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:4:16-57
+49        <activity
+49-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:5-12:16
+50            android:name="com.Test.ARCore.UnityPlayerActivity"
+50-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:336-386
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:118-299
+52            android:hardwareAccelerated="false"
+52-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:300-335
+53            android:label="@string/app_name"
+53-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:15-47
+54            android:launchMode="singleTask"
+54-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:86-117
+55            android:screenOrientation="landscape" >
+55-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:5:48-85
+56            <intent-filter>
+56-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:6:7-9:23
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:7:9-61
+57-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:7:17-58
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:8:9-69
+59-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:8:19-66
+60            </intent-filter>
+61
+62            <meta-data
+62-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:10:7-82
+63                android:name="unityplayer.UnityActivity"
+63-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:10:18-58
+64                android:value="true" />
+64-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:10:59-79
+65            <meta-data
+65-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:11:7-78
+66                android:name="android.notch_support"
+66-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:11:18-54
+67                android:value="true" />
+67-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:11:55-75
+68        </activity>
+69
+70        <meta-data
+70-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:13:5-73
+71            android:name="unity.tango-enable"
+71-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:13:16-49
+72            android:value="True" />
+72-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:13:50-70
+73        <meta-data
+73-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:14:5-88
+74            android:name="unityplayer.SkipPermissionsDialog"
+74-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:14:16-64
+75            android:value="true" />
+75-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:14:65-85
+76        <meta-data
+76-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:15:5-101
+77            android:name="unity.build-id"
+77-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:15:16-45
+78            android:value="eea6f89b-77a1-4b33-ad40-79d930a2d746" />
+78-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:15:46-98
+79        <meta-data
+79-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:16:5-69
+80            android:name="unity.splash-mode"
+80-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:16:16-48
+81            android:value="0" />
+81-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:16:49-66
+82        <meta-data
+82-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:17:5-74
+83            android:name="unity.splash-enable"
+83-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:17:16-50
+84            android:value="True" />
+84-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:17:51-71
+85        <meta-data
+85-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:18:5-81
+86            android:name="notch.config"
+86-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:18:16-43
+87            android:value="portrait|landscape" />
+87-->D:\ARCoreTest\android_erase_add\ARCoreTest\src\main\AndroidManifest.xml:18:44-78
+88        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+89        <meta-data
+89-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:36:9-38:41
+90            android:name="com.google.ar.core.min_apk_version"
+90-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:37:13-62
+91            android:value="202470000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+91-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:38:13-38
+92        <activity
+92-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:40:9-46:80
+93            android:name="com.google.ar.core.InstallActivity"
+93-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:41:13-62
+94            android:configChanges="keyboardHidden|orientation|screenSize"
+94-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:42:13-74
+95            android:excludeFromRecents="true"
+95-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:43:13-46
+96            android:exported="false"
+96-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:44:13-37
+97            android:launchMode="singleTop"
+97-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:45:13-43
+98            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+98-->[:arcore_client:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e5ea45c6c71ac22db00f1ba2dccef8f\arcore_client\AndroidManifest.xml:46:13-77
+99
+100        <meta-data
+100-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:14:9-16:40
+101            android:name="com.google.ar.core"
+101-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:15:13-46
+102            android:value="required" />
+102-->[:google_ar_required:] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f7d722446c50b33418056be232b82c3d\google_ar_required\AndroidManifest.xml:16:13-37
+103    </application>
+104
+105</manifest>

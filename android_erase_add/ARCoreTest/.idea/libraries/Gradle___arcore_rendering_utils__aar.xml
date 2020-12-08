@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :arcore_rendering_utils:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c223d55eba20eca05c73f943e464916/customized_manifest/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c223d55eba20eca05c73f943e464916/customized_manifest/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c223d55eba20eca05c73f943e464916/customized_manifest/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
