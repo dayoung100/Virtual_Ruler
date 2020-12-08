@@ -4,10 +4,15 @@
 ## Virtual_Ruler Repository
 캡스톤디자인 프로젝트 에코그린 팀, 대형폐기물 배출 안내 어플리케이션의 Virtual Ruler 파트 레포지토리이다. 
 
+
+
+
 # 에코그린 유튜브 채널
+ 
  
 # 시연영상 링크
 에코그린 시연영상(DeepLearning + Virtual Ruler + UI) :   
+ 
  
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
@@ -15,6 +20,7 @@ https://github.com/dayoung100/ECOGREEN
 
 ## 프로젝트 레포지토리 정리
 https://github.com/hyojin2/Android-Studio : android studio UI 구현   
+
 
  
 ## Technology TODO : Virtual Ruler  
@@ -27,7 +33,8 @@ https://github.com/hyojin2/Android-Studio : android studio UI 구현
 - [ ] 추가적인 편의성, UI 개선  
 - [ ] 유니티로 만든 앱을 최종 안드로이드 앱에 합치기  
 
-    
+ 
+ 
 ## Reference
 - Quickstart for Android | ARCore    
 https://developers.google.com/ar/develop/unity/quickstart-android    
@@ -40,6 +47,7 @@ https://subscription.packtpub.com/video/application_development/9781789537413/70
 
    
 
+
 ## 기술블로그
 ### [AR: Virtual Ruler]
 유니티에서 ARCore 시작하기: https://iszero-tech.tistory.com/1   
@@ -48,6 +56,7 @@ AR Ruler①: https://iszero-tech.tistory.com/3
 AR Ruler②: https://iszero-tech.tistory.com/4   
 Virtual Ruler 중간정리: https://iszero-tech.tistory.com/5   
  
+
 
 
 ## 오픈소스 라이선스
