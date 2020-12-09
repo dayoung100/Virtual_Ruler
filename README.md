@@ -10,21 +10,24 @@
  유니티: 2019.2.8f1 사용  
  ARCore sdk: 1.20.0 이상의 버전
  
- 코드에 대한 설명 및 빌드 세팅 등은 아래의 블로그에서 확인할 수 있다.  
+ 주로 변경한 코드는 Assets/GoogleARCore/Examples/HelloAR/Scripts 폴더의 **HelloARController.cs** 이다. 코드에 대한 설명 및 빌드 세팅 등은 아래의 블로그에서 확인할 수 있다.  
  https://iszero-tech.tistory.com/category/AR<br/><br/>
  
 
 
 # 에코그린 유튜브 채널
+https://www.youtube.com/channel/UCT70bDJj1z-kksHOvijeBCg?view_as=subscriber
+ 
  
 ## 시연영상 링크
-에코그린 시연영상(DeepLearning + Virtual Ruler + UI) :  <br/><br/>
+에코그린 시연영상(DeepLearning + Virtual Ruler + UI) : https://youtu.be/FPIzbdl9Bik <br/><br/>
  
 # 대형폐기물 배출 안내 어플리케이션
 ## 에코그린 Organization
 https://github.com/dayoung100/ECOGREEN  
 
 ## 프로젝트 레포지토리 정리
+https://github.com/syoung622/Deep-Learning : 딥러닝 모델  
 https://github.com/hyojin2/Android-Studio : android studio UI 구현  
 https://github.com/dayoung100/Virtual_Ruler : 간단한 Virtual Ruler 구현<br/><br/>
 
